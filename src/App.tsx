@@ -1,12 +1,13 @@
-import "./index.css";
-import { Home } from "./pages/dashboard";
+
+import { Home } from "."
 
 function App() {
-    return (
-    <>
-    <Home/>
-    </>
-    );
-  }
   
-  export default App;
+  return (
+    <>
+      <Home/>
+    </>
+  )
+}
+
+export default App
