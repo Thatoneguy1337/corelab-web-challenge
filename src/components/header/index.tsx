@@ -1,5 +1,4 @@
 import Logo from "./../../assets/noteblock.png";
-// import {Search} from "@emotion-icons/bootstrap/Search"
 import { AiOutlineSearch } from "react-icons/ai"
 
 
@@ -15,8 +14,8 @@ export const Header = () => {
               alt="Logo"
             />
             <h2 className="lg-sm">CoreNotes</h2>
-            <div className="flex flex-end ml-2 sm:w-25 md:w-30 h-5 shadow-md">
-            <input className="border-none sm:w-25" type="text"/>
+            <div className="flex flex-end ml-2 sm:w-25 md:w-30 h-5 rounded-sm shadow-md">
+            <input className="border-none outline-none sm:w-25" type="text"/>
             <AiOutlineSearch/>
             </div>
           </div>

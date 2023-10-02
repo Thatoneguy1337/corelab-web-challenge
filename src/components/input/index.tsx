@@ -1,14 +1,7 @@
+import { InputTitle } from "./title";
+import { InputDescription } from "./description";
 
 
-
-export const searchInput = ()=>{
-return(
-<input className="flex border-none w-25 h-5 shadow-md" type="text"></input>
-)
-}
-
-
-
-
+export {InputTitle, InputDescription};
 
 
