@@ -11,7 +11,7 @@ interface InputProps {
 }
 
 
-export function InputTitle({ id, type, placeholder, defaultValue, error, register }: InputProps) {
+export const InputTitle = ({ id, type, placeholder, defaultValue, error, register }: InputProps)=> {
     return (
       <fieldset className="relative border-b-2 flex justify-between px-2 gap-2">
         <input

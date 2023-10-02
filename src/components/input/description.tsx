@@ -10,7 +10,7 @@ interface InputProps {
 }
 
 
-export function InputDescription({ id, type, placeholder, defaultValue, register, error  }: InputProps) {
+export const InputDescription = ({ id, type, placeholder, defaultValue, register, error  }: InputProps) => {
     return (
       <fieldset className="relative flex flex-col gap-2 border-none">
         <input
