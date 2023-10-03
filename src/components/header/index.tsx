@@ -7,7 +7,7 @@ export const Header = () => {
  
    return (
       <>
-        <header className="h-20 shadow-bottom w-full flex justify-evenly items-center px-10 sticky top-0 right-0 left-0 z-10">
+        <header className="h-full shadow-bottom w-full flex justify-evenly sticky items-center px-10 top-0 right-0 left-0 z-10">
           <div className="container mx-auto pl-4 pr-4 h-full flex flex-start items-center rounded-sm">
             <img
               src={Logo}

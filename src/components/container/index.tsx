@@ -5,8 +5,9 @@ import { taskData, taskSchema } from "../../validations/task";
 import { apiLocal } from "../../services/api";
 
 export const Container = ()=>{
-  
-  const taskRegister = async (data: taskData) => {
+
+
+ const taskRegister = async (data: taskData) => {
     try {
       await apiLocal.post("/task", data);
     } catch (error) {
@@ -24,8 +25,8 @@ export const Container = ()=>{
   });
 
 return(
- <div className="w-full h-full flex flex-column p-10">
-    <div className="w-full h-40 ml-20 rounded-lg shadow-lg">
+ <main className="w-full h-2/4 flex items-center justify-center content-center flex-column p-10">
+    <div className="w-2/4 flex items-center h-40 ml-20 rounded-lg shadow-lg">
     <form onSubmit={handleSubmit(taskRegister)} className="flex flex-col justify-evenly h-full">
         <InputTitle
                 id="title"
@@ -48,7 +49,7 @@ return(
                 )}/>      
     </form>    
     </div> 
- </div>
+ </main>
 );
 
 }
