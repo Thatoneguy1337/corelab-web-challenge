@@ -40,7 +40,7 @@ export const Home = () => {
     <Header/>
     <Container/>
      
-   <div className="pl-4 pr-4 h-full flex flex-col justify-between md:overflow-hidden gap-10 items-center">
+   <div className="w-full h-full flex flex-col justify-between md:overflow-hidden gap-10 ">
 
     <h2>favoritos</h2>
 
@@ -60,7 +60,7 @@ export const Home = () => {
    <h2>tarefa</h2> 
    
 
-    <ul className="flex gap-3 w-full md:flex-col md:flex-wrap md:gap-12">
+    <ul className="flex gap-3 w-full md:overflow-hidden md:flex-col md:flex-wrap md:gap-12">
     {  task.map((fav) => {
         if (fav.is_favorite == false) {
           return (
