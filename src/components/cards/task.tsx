@@ -1,6 +1,7 @@
 import {BsFillPencilFill} from "react-icons/bs";
 import {LuPaintBucket} from "react-icons/lu";
 import { apiLocal } from "../../services/api";
+import {AiOutlineStar} from "react-icons/ai"
 
 interface CardProps {
     id: number;
@@ -37,8 +38,9 @@ interface CardProps {
 
     <div className="w-60 h-120 flex flex-col over-flow-auto h-40 ml-20 rounded-lg shadow-lg " style={{backgroundColor: color}}>
         <div className=" w-full h-20 flex flex-col justify-evenly h-full">
-            <div className="relative border-b-2 flex  p-2 gap-2">
-             <h2>{title}</h2>   
+            <div className=" w-full relative flex justify-between border-b-2 flex  p-2 gap-2">
+             <h2>{title}</h2> 
+             <button className="bg-White color-black border-none"><AiOutlineStar/></button> 
             </div>
             <div className="relative flex flex-col gap-2 border-none">
              <p>{description}</p>

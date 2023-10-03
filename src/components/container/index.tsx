@@ -26,7 +26,7 @@ export const Container = ()=>{
 
 return(
  <main className="w-full h-2/4 flex items-center justify-center content-center flex-column p-10">
-    <div className="w-2/4 flex items-center h-40 ml-20 rounded-lg shadow-lg">
+    <div className="w-80 flex items-center h-40 ml-20 rounded-lg shadow-lg">
     <form onSubmit={handleSubmit(taskRegister)} className="flex flex-col justify-evenly h-full">
         <InputTitle
                 id="title"

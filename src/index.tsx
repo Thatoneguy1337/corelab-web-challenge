@@ -44,7 +44,7 @@ export const Home = () => {
 
     <h2>favoritos</h2>
 
-    <ul className="flex gap-3 w-full overflow-scroll md:overflow-hidden md:flex-wrap md:gap-12">
+    <ul className="flex gap-3 w-full md:flex-col md:flex-wrap md:gap-12">
    
     {task.map((fav) => {
         if (fav.is_favorite) {
@@ -60,7 +60,7 @@ export const Home = () => {
    <h2>tarefa</h2> 
    
 
-    <ul className="flex gap-3 w-full overflow-scroll md:overflow-hidden md:flex-wrap md:gap-12">
+    <ul className="flex gap-3 w-full md:flex-col md:flex-wrap md:gap-12">
     {  task.map((fav) => {
         if (fav.is_favorite == false) {
           return (

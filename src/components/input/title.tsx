@@ -15,7 +15,7 @@ export const InputTitle = ({ id, type, placeholder, defaultValue, error, registe
     return (
       <fieldset className=" w-full relative border-b-2 flex  p-2 gap-2">
         <input
-          className="h-12 w-30  outline-none rounded-4   px-4"
+          className="h-12 w-full  outline-none rounded-4   px-4"
           type={type}
           placeholder={placeholder}
           id={id}
@@ -24,7 +24,7 @@ export const InputTitle = ({ id, type, placeholder, defaultValue, error, registe
          
           />
         {error}
-        <button className=""><AiOutlineStar/></button> 
+        <button className=""><AiOutlineStar/></button>
       </fieldset>
     );
   }

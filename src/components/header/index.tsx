@@ -15,7 +15,7 @@ export const Header = () => {
             />
             <h2 className="lg-sm">CoreNotes</h2>
             <div className="flex flex-end ml-2 sm:w-25 md:w-30 h-5 rounded-sm shadow-md">
-            <input className="border-none outline-none sm:w-25" type="text"/>
+            <input className="border-none outline-none sm:w-25 p-2" type="text"/>
             <AiOutlineSearch/>
             </div>
           </div>
